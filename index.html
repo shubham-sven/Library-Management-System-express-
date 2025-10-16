@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Library Management System</h1>
+
+    <section id="books-section">
+        <h2>Books</h2>
+        <table id="books-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Available</th>
+                </tr>
+            </thead>
+            <tbody id="books-tbody">
+                <!-- Books data will be populated here -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="users-section">
+        <h2>Users</h2>
+        <table id="users-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="users-tbody">
+                <!-- Users data will be populated here -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="borrowings-section">
+        <h2>Borrowing History</h2>
+        <table id="borrowings-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>User ID</th>
+                    <th>Book ID</th>
+                    <th>Borrowed At</th>
+                    <th>Returned At</th>
+                </tr>
+            </thead>
+            <tbody id="borrowings-tbody">
+                <!-- Borrowings data will be populated here -->
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
