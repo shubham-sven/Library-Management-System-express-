@@ -1,0 +1,12 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "A simple library management API using Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
